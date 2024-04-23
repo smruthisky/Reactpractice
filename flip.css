@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+    border: 1px solid black;
+}
+
+
+
+.nav-items >ul{
+    display: flex;
+    list-style-type: none;
+    padding-right: 40px;
+}
+.nav-items >ul>li{
+    padding-right: 70px;
+    
+}
+
+
+.textcontent{
+    font-size:small;
+    display: flex;
+    flex-direction: column;
+    
+   font-family:'Times New Roman', Times, serif;
+    
+}
+.textcontent >h3{
+    font-size: x-small;
+   
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    padding-left: 20px;
+}
+
+.cards{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.cards > img{
+    padding-top: 6px;
+    width: 100%;
+    /* height: 190px; */
+}
+.resturant-list{
+    display: flex;
+}
